@@ -1,3 +1,23 @@
+video { 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  object-position: center;
+  z-index: -1;
+}
+
+/* Widgets */
+section {
+  background: lightgray;
+  padding: 1em;
+  
+  /* Relative Parent. Absolute Child */
+  position: relative;
+}
+
 /* Grid */
 .layout {
   /* Set your own grid   */
