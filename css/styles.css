@@ -7,16 +7,30 @@ video {
   object-fit: cover;
   object-position: center;
   z-index: -1;
+  transform: rotateY(180deg);
+  -webkit-transform:rotateY(180deg); /* Safari and Chrome */
+  -moz-transform:rotateY(180deg); /* Firefox */
 }
 
 /* Widgets */
 section {
-  background: lightgray;
+  /* background: lightgray;  */
   text-align: right;
-  padding: 1em;
-  
+  padding: 0em;
+  margin-right: 1em;
   /* Relative Parent. Absolute Child */
   position: relative;
+
+/* style the text */
+  font-family: RedHatDisplay-Variable, sans-serif;
+  font-weight: 400;
+  font-size:  1.2em;
+  color: white;
+  filter: drop-shadow(0 0 0.25rem Black);
+}
+
+section.bigText {
+  font-size: 2em;
 }
 
 /* Grid */
@@ -24,7 +38,7 @@ section {
   display: grid;
   /* grid-template-columns: repeat(3, 1fr); */
   /* grid-template-rows: 400px; */
-  grid-row-gap: 1em;
+  grid-row-gap: 0em;
   /* Align widgets to the right side of the screen */
   justify-items: end;
 }
@@ -49,7 +63,7 @@ section {
 
 /* Date */
 .date {
-  
+  margin-top: 2em;
 }
 
 .month {
@@ -66,7 +80,7 @@ section {
 
 /* Weather */
 .weather {
- 
+ margin-top: 1em;
 }
 
 .city {
@@ -74,9 +88,10 @@ section {
 }
 
 .temp {
-  
+  font-size: 1.5em;
 }
 
 .weather img {
-  
+  /* Force a line break after the image */
+  display: block;
 }

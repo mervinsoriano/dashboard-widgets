@@ -1,7 +1,5 @@
 # Dashboard Widgets
 
-<a href="https://app.netlify.com/start/deploy?repository=https://github.com/ewuweblab/dashboard-widgets/"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
-
 ## What Is This?
 The concept of a Dashboard appears nearly everywhere. Most obvious are car dashboards with displays of speed, mileage, and navigation. Less obvious examples are: the FaceBook banner with notifications, informational displays in lobbies, and “widgets” on iOS and Android. A portion of a larger display is a widget.
 
@@ -16,4 +14,11 @@ The concept of a Dashboard appears nearly everywhere. Most obvious are car dashb
 * Apply concepts from Web Design 1 and 2 with APIs from Web 3
 
 ## Citations
-List your sources here
+* Openweather API
+* Video API
+* Red Hat Font [Fontshare](https://www.fontshare.com/fonts/red-hat-display)
+* Used mix-blend-mode trick based on [CSS-Tricks tutorial](https://css-tricks.com/reverse-text-color-mix-blend-mode/)
+* Video mirroring technique from [Stack Overflow](https://stackoverflow.com/questions/14455844/is-that-possible-to-make-video-mirrored)
+
+
+
