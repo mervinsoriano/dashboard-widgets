@@ -19,6 +19,7 @@ The concept of a Dashboard appears nearly everywhere. Most obvious are car dashb
 * Red Hat Font [Fontshare](https://www.fontshare.com/fonts/red-hat-display)
 * Used mix-blend-mode trick based on [CSS-Tricks tutorial](https://css-tricks.com/reverse-text-color-mix-blend-mode/)
 * Video mirroring technique from [Stack Overflow](https://stackoverflow.com/questions/14455844/is-that-possible-to-make-video-mirrored)
+* Video plays on iOS and other mobile devices [Stack Overflow](https://stackoverflow.com/questions/20347352/html5-video-tag-not-working-in-safari-iphone-and-ipad)
 
 
 
