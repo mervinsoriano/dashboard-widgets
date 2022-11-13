@@ -14,10 +14,10 @@ video {
 
 /* Widgets */
 section {
-  /* background: lightgray;  */
+
   text-align: right;
-  padding: 0em;
-  margin-right: 1em;
+  /* padding-right: 1em; 
+  /* margin-right: 1em; */
   /* Relative Parent. Absolute Child */
   position: relative;
 
@@ -26,26 +26,24 @@ section {
   font-weight: 400;
   font-size:  1.2em;
   color: white;
-  filter: drop-shadow(0 0 0.25rem Black);
-}
-
-section.bigText {
-  font-size: 2em;
+  filter: drop-shadow(0 0 1em black);
 }
 
 /* Grid */
 .layout {
   display: grid;
   /* grid-template-columns: repeat(3, 1fr); */
+  margin-right: 1em;
   /* grid-template-rows: 400px; */
   grid-row-gap: 0em;
+ 
   /* Align widgets to the right side of the screen */
   justify-items: end;
 }
 
 /* Time */
 .time {
-  
+  font-size: 2.5em;
 }
 
 .hours {
