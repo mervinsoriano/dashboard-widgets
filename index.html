@@ -33,6 +33,7 @@
     />
     <!-- My Styles -->
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/red-hat-display.css" />
     <!-- My Scripts -->
     <script defer src="js/scripts.js"></script>
     <script defer src="js/time.js"></script>
@@ -40,38 +41,36 @@
     <script defer src="js/weather.js"></script>
   </head>
   <body>
-    <video autoplay poster="https://images.unsplash.com/photo-1665972912662-5ef8aefe30dc"></video>
+    <video autoplay poster="https://images.unsplash.com/photo-1665972912662-5ef8aefe30dc"></video> 
     <main class="layout">
+      <!--  Date -->
+      <section class="date">
+       <time>
+        <data class="dayOfWeek">SMTWTFS</data>,
+         <data class="month">Month</data>
+         <data class="dayOfMonth">00</data>
+         <!-- <data class="year">0000</data> - -->
+       </time> 
+     </section>
+
       <!-- Time -->
       <section class="time">
-        <h1>Time</h1>
         <time>
           <data class="hours">HH</data> : <data class="minutes">MM</data> :
-          <data class="seconds">SS</data>
+          <!-- <data class="seconds">SS</data> -->
           <data class="amOrPM">AM/PM</data>
         </time>
       </section>
 
-      <!--  Date -->
-      <section class="date">
-        <h1>Date</h1>
-        <time>
-          <data class="month">Month</data>
-          <data class="dayOfMonth">00</data>, <data class="year">0000</data> -
-          <data class="dayOfWeek">SMTWTFS</data>
-        </time>
-      </section>
-
-      <!-- Weather -->
-      <section class="weather">
-        <!--
-      <h1>Weather</h1>
-      <data value="" class="city">City</data>
-      <data value="" class="temp">Temp</data>
-      <img src="https://via.placeholder.com/150" alt="Placeholder">
-     -->
-      </section>
+        <!-- Weather -->
+        <section class="weather">
+          <!--
+        <h1>Weather</h1>
+        <data value="" class="city">City</data>
+        <data value="" class="temp">Temp</data>
+        <img src="https://via.placeholder.com/150" alt="Placeholder">
+       -->
+        </section>
     </main>
-    <p>CHECK-CHECK!</p>
   </body>
 </html>
