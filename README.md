@@ -20,6 +20,4 @@ The concept of a Dashboard appears nearly everywhere. Most obvious are car dashb
 * Used mix-blend-mode trick based on [CSS-Tricks tutorial](https://css-tricks.com/reverse-text-color-mix-blend-mode/)
 * Video mirroring technique from [Stack Overflow](https://stackoverflow.com/questions/14455844/is-that-possible-to-make-video-mirrored)
 * Video plays on iOS and other mobile devices [Stack Overflow](https://stackoverflow.com/questions/20347352/html5-video-tag-not-working-in-safari-iphone-and-ipad)
-
-
-
+* Used Math.ceil to round up temp [W3 School](https://www.w3schools.com/jsref/jsref_ceil.asp)

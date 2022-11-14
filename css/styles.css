@@ -82,14 +82,25 @@ section {
 }
 
 .city {
-  
+  display: block;
 }
 
 .temp {
   font-size: 1.5em;
+   /* Force a line break after the image */
+   display: block;
 }
 
 .weather img {
-  /* Force a line break after the image */
+
+}
+
+.description{
+   /* Force a line break after the image */
+   display: block;
+   padding-bottom: 1em;;
+}
+
+.wind{
   display: block;
 }
