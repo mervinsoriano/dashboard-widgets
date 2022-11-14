@@ -7,6 +7,8 @@ video {
   object-fit: cover;
   object-position: center;
   z-index: -1;
+
+  /* Mirror the video to act like a... mirror */
   transform: rotateY(180deg);
   -webkit-transform:rotateY(180deg); /* Safari and Chrome */
   -moz-transform:rotateY(180deg); /* Firefox */
@@ -26,7 +28,10 @@ section {
   font-weight: 400;
   font-size:  1.2em;
   color: white;
-  filter: drop-shadow(0 0 1em black);
+  /* filter: drop-shadow(0 0 1em black); */
+
+  /* Change text color based on video background */
+  mix-blend-mode: difference;
 }
 
 /* Grid */

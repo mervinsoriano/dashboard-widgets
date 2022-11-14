@@ -25,7 +25,7 @@ fetch(url)
     <img src="http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png" alt="Weather">
     <data value="${data.main.temp}" class="temp">${Math.ceil(data.main.temp)}&#8457;</data>
     <data value="${data.weather[0].description}" class="description">${data.weather[0].description}</data>
-    <data value="${data.wind.speed}" class="wind">Wind: ${data.wind.speed}mph</data>
+    <data value="${data.wind.speed}" class="wind">Wind: ${Math.ceil(data.wind.speed)} mph</data>
     <data value="${data.main.humidity}" class="humidity">Humidity: ${data.main.humidity}%</data>
   `;
   
