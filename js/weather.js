@@ -22,7 +22,7 @@ fetch(url)
   // Template to output
   const template = `
     <data value="${data.name}" class="city">${data.name}</data>
-    <img src="https://github.com/mervinsoriano/dashboard-widgets/tree/main/img/${data.weather[0].icon}.svg" alt="Weather">
+    <img src="http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png" alt="Weather">
     <data value="${data.main.temp}" class="temp">${Math.ceil(data.main.temp)}&#8457;</data>
     <data value="${data.weather[0].description}" class="description">${data.weather[0].description}</data>
     <data value="${data.wind.speed}" class="wind">Wind: ${Math.ceil(data.wind.speed)} mph</data>
